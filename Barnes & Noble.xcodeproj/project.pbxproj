@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8323D7210E79E500A497F7 /* HARRYP__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 0C3E1013210E683C00739EC1 /* HARRYP__.TTF */; };
+		79087D8D211106B800B3B46F /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79087D8C211106B800B3B46F /* ProfilePage.swift */; };
+		79623F5021064577007CA94B /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79623F4F21064577007CA94B /* ARView.swift */; };
+		797526C220FFA121009B5215 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526A620FFA121009B5215 /* Montserrat-LightItalic.ttf */; };
+		797526C320FFA121009B5215 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526A720FFA121009B5215 /* OpenSans-SemiBold.ttf */; };
+		797526C420FFA121009B5215 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526A820FFA121009B5215 /* Montserrat-Medium.ttf */; };
+		797526C520FFA121009B5215 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526A920FFA121009B5215 /* Montserrat-BoldItalic.ttf */; };
+		797526C620FFA121009B5215 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526AA20FFA121009B5215 /* Montserrat-Light.ttf */; };
+		797526C720FFA122009B5215 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526AB20FFA121009B5215 /* Montserrat-ThinItalic.ttf */; };
+		797526C820FFA122009B5215 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526AC20FFA121009B5215 /* Montserrat-ExtraLight.ttf */; };
+		797526C920FFA122009B5215 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526AD20FFA121009B5215 /* Montserrat-Thin.ttf */; };
+		797526CA20FFA122009B5215 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526AE20FFA121009B5215 /* OpenSans-Light.ttf */; };
+		797526CB20FFA122009B5215 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526AF20FFA121009B5215 /* Montserrat-Bold.ttf */; };
+		797526CC20FFA122009B5215 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526B020FFA121009B5215 /* Montserrat-MediumItalic.ttf */; };
+		797526CD20FFA122009B5215 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526B120FFA121009B5215 /* OpenSans-Italic.ttf */; };
+		797526CE20FFA122009B5215 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526B220FFA121009B5215 /* Montserrat-BlackItalic.ttf */; };
+		797526CF20FFA122009B5215 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526B320FFA121009B5215 /* OpenSans-ExtraBold.ttf */; };
+		797526D020FFA122009B5215 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526B420FFA121009B5215 /* Montserrat-SemiBold.ttf */; };
+		797526D120FFA122009B5215 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526B520FFA121009B5215 /* OpenSans-LightItalic.ttf */; };
+		797526D220FFA122009B5215 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526B620FFA121009B5215 /* Montserrat-ExtraLightItalic.ttf */; };
+		797526D320FFA122009B5215 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526B720FFA121009B5215 /* Montserrat-ExtraBold.ttf */; };
+		797526D420FFA122009B5215 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526B820FFA121009B5215 /* OpenSans-Bold.ttf */; };
+		797526D520FFA122009B5215 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526B920FFA121009B5215 /* Montserrat-Black.ttf */; };
+		797526D620FFA122009B5215 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526BA20FFA121009B5215 /* OpenSans-SemiBoldItalic.ttf */; };
+		797526D720FFA122009B5215 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526BB20FFA121009B5215 /* Montserrat-Regular.ttf */; };
+		797526D820FFA122009B5215 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526BC20FFA121009B5215 /* Montserrat-Italic.ttf */; };
+		797526D920FFA122009B5215 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526BD20FFA121009B5215 /* OpenSans-ExtraBoldItalic.ttf */; };
+		797526DA20FFA122009B5215 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526BE20FFA121009B5215 /* OpenSans-Regular.ttf */; };
+		797526DB20FFA122009B5215 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526BF20FFA121009B5215 /* OpenSans-BoldItalic.ttf */; };
+		797526DC20FFA122009B5215 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526C020FFA121009B5215 /* Montserrat-SemiBoldItalic.ttf */; };
+		797526DD20FFA122009B5215 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797526C120FFA121009B5215 /* Montserrat-ExtraBoldItalic.ttf */; };
+		79B33BF521010A2D0009BAA8 /* RecommendedCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B33BF421010A2D0009BAA8 /* RecommendedCollectionCell.swift */; };
+		79B33BF7210129FA0009BAA8 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B33BF6210129FA0009BAA8 /* DetailsView.swift */; };
+		79B33BF921023B2E0009BAA8 /* MMSlidingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B33BF821023B2D0009BAA8 /* MMSlidingButton.swift */; };
+		79B3634420FFA22400B0F114 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3634320FFA22400B0F114 /* Login.swift */; };
+		79B3634620FFA50E00B0F114 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3634520FFA50E00B0F114 /* Home.swift */; };
+		79B3634820FFA6E900B0F114 /* BestSellerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3634720FFA6E900B0F114 /* BestSellerCollectionCell.swift */; };
+		79B8551B20FCE72000D5E260 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79B8551A20FCE72000D5E260 /* MyScene.sks */; };
+		79B8EC6A210426FD005AF4D3 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8EC69210426FD005AF4D3 /* Navigation.swift */; };
+		79E056CC20FFD63400133814 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E056CB20FFD63400133814 /* GradientView.swift */; };
+		79E056CE20FFDD0E00133814 /* NewArrivalsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E056CD20FFDD0E00133814 /* NewArrivalsCollectionCell.swift */; };
+		79FFD69D20F78E3800CB121D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FFD69C20F78E3800CB121D /* AppDelegate.swift */; };
+		79FFD69F20F78E3800CB121D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 79FFD69E20F78E3800CB121D /* art.scnassets */; };
+		79FFD6A120F78E3800CB121D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FFD6A020F78E3800CB121D /* ViewController.swift */; };
+		79FFD6A420F78E3800CB121D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FFD6A220F78E3800CB121D /* Main.storyboard */; };
+		79FFD6A620F78E3900CB121D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79FFD6A520F78E3900CB121D /* Assets.xcassets */; };
+		79FFD6A920F78E3900CB121D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FFD6A720F78E3900CB121D /* LaunchScreen.storyboard */; };
+		ECC2043790D4008F445B8FBA /* Pods_Barnes___Noble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54253901605D104645CDDA25 /* Pods_Barnes___Noble.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C3E1013210E683C00739EC1 /* HARRYP__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = HARRYP__.TTF; sourceTree = "<group>"; };
+		4F4BC4D4B21BEBA0BE0592A9 /* Pods-Barnes & Noble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barnes & Noble.release.xcconfig"; path = "Pods/Target Support Files/Pods-Barnes & Noble/Pods-Barnes & Noble.release.xcconfig"; sourceTree = "<group>"; };
+		54253901605D104645CDDA25 /* Pods_Barnes___Noble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Barnes___Noble.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79087D8C211106B800B3B46F /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		79623F4F21064577007CA94B /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		797526A620FFA121009B5215 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		797526A720FFA121009B5215 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		797526A820FFA121009B5215 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		797526A920FFA121009B5215 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		797526AA20FFA121009B5215 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		797526AB20FFA121009B5215 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		797526AC20FFA121009B5215 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		797526AD20FFA121009B5215 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		797526AE20FFA121009B5215 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		797526AF20FFA121009B5215 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		797526B020FFA121009B5215 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		797526B120FFA121009B5215 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		797526B220FFA121009B5215 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		797526B320FFA121009B5215 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		797526B420FFA121009B5215 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		797526B520FFA121009B5215 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		797526B620FFA121009B5215 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		797526B720FFA121009B5215 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		797526B820FFA121009B5215 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		797526B920FFA121009B5215 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		797526BA20FFA121009B5215 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		797526BB20FFA121009B5215 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		797526BC20FFA121009B5215 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		797526BD20FFA121009B5215 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		797526BE20FFA121009B5215 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		797526BF20FFA121009B5215 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		797526C020FFA121009B5215 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		797526C120FFA121009B5215 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		79B33BF421010A2D0009BAA8 /* RecommendedCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedCollectionCell.swift; sourceTree = "<group>"; };
+		79B33BF6210129FA0009BAA8 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		79B33BF821023B2D0009BAA8 /* MMSlidingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMSlidingButton.swift; sourceTree = "<group>"; };
+		79B3634320FFA22400B0F114 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		79B3634520FFA50E00B0F114 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		79B3634720FFA6E900B0F114 /* BestSellerCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerCollectionCell.swift; sourceTree = "<group>"; };
+		79B8551A20FCE72000D5E260 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		79B8EC69210426FD005AF4D3 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		79E056CB20FFD63400133814 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		79E056CD20FFDD0E00133814 /* NewArrivalsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivalsCollectionCell.swift; sourceTree = "<group>"; };
+		79FFD69920F78E3800CB121D /* Barnes & Noble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barnes & Noble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FFD69C20F78E3800CB121D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79FFD69E20F78E3800CB121D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		79FFD6A020F78E3800CB121D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79FFD6A320F78E3800CB121D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79FFD6A520F78E3900CB121D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79FFD6A820F78E3900CB121D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79FFD6AA20F78E3900CB121D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3B02DEB7DC1FEBBBDD4B38 /* Pods-Barnes & Noble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barnes & Noble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Barnes & Noble/Pods-Barnes & Noble.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79FFD69620F78E3800CB121D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC2043790D4008F445B8FBA /* Pods_Barnes___Noble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		797526A520FFA121009B5215 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				79E056CB20FFD63400133814 /* GradientView.swift */,
+				0C3E1013210E683C00739EC1 /* HARRYP__.TTF */,
+				797526A620FFA121009B5215 /* Montserrat-LightItalic.ttf */,
+				797526A720FFA121009B5215 /* OpenSans-SemiBold.ttf */,
+				797526A820FFA121009B5215 /* Montserrat-Medium.ttf */,
+				797526A920FFA121009B5215 /* Montserrat-BoldItalic.ttf */,
+				797526AA20FFA121009B5215 /* Montserrat-Light.ttf */,
+				797526AB20FFA121009B5215 /* Montserrat-ThinItalic.ttf */,
+				797526AC20FFA121009B5215 /* Montserrat-ExtraLight.ttf */,
+				797526AD20FFA121009B5215 /* Montserrat-Thin.ttf */,
+				797526AE20FFA121009B5215 /* OpenSans-Light.ttf */,
+				797526AF20FFA121009B5215 /* Montserrat-Bold.ttf */,
+				797526B020FFA121009B5215 /* Montserrat-MediumItalic.ttf */,
+				797526B120FFA121009B5215 /* OpenSans-Italic.ttf */,
+				797526B220FFA121009B5215 /* Montserrat-BlackItalic.ttf */,
+				797526B320FFA121009B5215 /* OpenSans-ExtraBold.ttf */,
+				797526B420FFA121009B5215 /* Montserrat-SemiBold.ttf */,
+				797526B520FFA121009B5215 /* OpenSans-LightItalic.ttf */,
+				797526B620FFA121009B5215 /* Montserrat-ExtraLightItalic.ttf */,
+				797526B720FFA121009B5215 /* Montserrat-ExtraBold.ttf */,
+				797526B820FFA121009B5215 /* OpenSans-Bold.ttf */,
+				797526B920FFA121009B5215 /* Montserrat-Black.ttf */,
+				797526BA20FFA121009B5215 /* OpenSans-SemiBoldItalic.ttf */,
+				797526BB20FFA121009B5215 /* Montserrat-Regular.ttf */,
+				797526BC20FFA121009B5215 /* Montserrat-Italic.ttf */,
+				797526BD20FFA121009B5215 /* OpenSans-ExtraBoldItalic.ttf */,
+				797526BE20FFA121009B5215 /* OpenSans-Regular.ttf */,
+				797526BF20FFA121009B5215 /* OpenSans-BoldItalic.ttf */,
+				797526C020FFA121009B5215 /* Montserrat-SemiBoldItalic.ttf */,
+				797526C120FFA121009B5215 /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		79FFD69020F78E3700CB121D = {
+			isa = PBXGroup;
+			children = (
+				79FFD69B20F78E3800CB121D /* Barnes & Noble */,
+				79FFD69A20F78E3800CB121D /* Products */,
+				94DAC97E5AAB4C5081C5A48F /* Pods */,
+				99D470DC233CCF485678B086 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79FFD69A20F78E3800CB121D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79FFD69920F78E3800CB121D /* Barnes & Noble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79FFD69B20F78E3800CB121D /* Barnes & Noble */ = {
+			isa = PBXGroup;
+			children = (
+				797526A520FFA121009B5215 /* Fonts */,
+				79FFD69C20F78E3800CB121D /* AppDelegate.swift */,
+				79B8551A20FCE72000D5E260 /* MyScene.sks */,
+				79FFD69E20F78E3800CB121D /* art.scnassets */,
+				79FFD6A020F78E3800CB121D /* ViewController.swift */,
+				79B3634520FFA50E00B0F114 /* Home.swift */,
+				79FFD6A220F78E3800CB121D /* Main.storyboard */,
+				79B33BF821023B2D0009BAA8 /* MMSlidingButton.swift */,
+				79B8EC69210426FD005AF4D3 /* Navigation.swift */,
+				79087D8C211106B800B3B46F /* ProfilePage.swift */,
+				79B33BF421010A2D0009BAA8 /* RecommendedCollectionCell.swift */,
+				79E056CD20FFDD0E00133814 /* NewArrivalsCollectionCell.swift */,
+				79B33BF6210129FA0009BAA8 /* DetailsView.swift */,
+				79B3634720FFA6E900B0F114 /* BestSellerCollectionCell.swift */,
+				79623F4F21064577007CA94B /* ARView.swift */,
+				79B3634320FFA22400B0F114 /* Login.swift */,
+				79FFD6A520F78E3900CB121D /* Assets.xcassets */,
+				79FFD6A720F78E3900CB121D /* LaunchScreen.storyboard */,
+				79FFD6AA20F78E3900CB121D /* Info.plist */,
+			);
+			path = "Barnes & Noble";
+			sourceTree = "<group>";
+		};
+		94DAC97E5AAB4C5081C5A48F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B02DEB7DC1FEBBBDD4B38 /* Pods-Barnes & Noble.debug.xcconfig */,
+				4F4BC4D4B21BEBA0BE0592A9 /* Pods-Barnes & Noble.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99D470DC233CCF485678B086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54253901605D104645CDDA25 /* Pods_Barnes___Noble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79FFD69820F78E3800CB121D /* Barnes & Noble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FFD6AD20F78E3900CB121D /* Build configuration list for PBXNativeTarget "Barnes & Noble" */;
+			buildPhases = (
+				A29013781BB0BCAD32EB74BE /* [CP] Check Pods Manifest.lock */,
+				79FFD69520F78E3800CB121D /* Sources */,
+				79FFD69620F78E3800CB121D /* Frameworks */,
+				79FFD69720F78E3800CB121D /* Resources */,
+				6F3602A4C2D1783CEFCB67CD /* [CP] Embed Pods Frameworks */,
+				E1904994598833698C918FE0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barnes & Noble";
+			productName = "Barnes & Noble";
+			productReference = 79FFD69920F78E3800CB121D /* Barnes & Noble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79FFD69120F78E3700CB121D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nardos Megersa";
+				TargetAttributes = {
+					79FFD69820F78E3800CB121D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 79FFD69420F78E3700CB121D /* Build configuration list for PBXProject "Barnes & Noble" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79FFD69020F78E3700CB121D;
+			productRefGroup = 79FFD69A20F78E3800CB121D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79FFD69820F78E3800CB121D /* Barnes & Noble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79FFD69720F78E3800CB121D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797526C620FFA121009B5215 /* Montserrat-Light.ttf in Resources */,
+				797526C920FFA122009B5215 /* Montserrat-Thin.ttf in Resources */,
+				797526D420FFA122009B5215 /* OpenSans-Bold.ttf in Resources */,
+				797526D120FFA122009B5215 /* OpenSans-LightItalic.ttf in Resources */,
+				797526CA20FFA122009B5215 /* OpenSans-Light.ttf in Resources */,
+				797526C820FFA122009B5215 /* Montserrat-ExtraLight.ttf in Resources */,
+				797526C520FFA121009B5215 /* Montserrat-BoldItalic.ttf in Resources */,
+				797526CB20FFA122009B5215 /* Montserrat-Bold.ttf in Resources */,
+				0C8323D7210E79E500A497F7 /* HARRYP__.TTF in Resources */,
+				79FFD69F20F78E3800CB121D /* art.scnassets in Resources */,
+				797526D720FFA122009B5215 /* Montserrat-Regular.ttf in Resources */,
+				797526DA20FFA122009B5215 /* OpenSans-Regular.ttf in Resources */,
+				797526DB20FFA122009B5215 /* OpenSans-BoldItalic.ttf in Resources */,
+				79FFD6A920F78E3900CB121D /* LaunchScreen.storyboard in Resources */,
+				797526C320FFA121009B5215 /* OpenSans-SemiBold.ttf in Resources */,
+				797526D520FFA122009B5215 /* Montserrat-Black.ttf in Resources */,
+				797526CE20FFA122009B5215 /* Montserrat-BlackItalic.ttf in Resources */,
+				797526CF20FFA122009B5215 /* OpenSans-ExtraBold.ttf in Resources */,
+				797526C720FFA122009B5215 /* Montserrat-ThinItalic.ttf in Resources */,
+				797526D320FFA122009B5215 /* Montserrat-ExtraBold.ttf in Resources */,
+				797526D620FFA122009B5215 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				797526D220FFA122009B5215 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				797526DD20FFA122009B5215 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				797526CC20FFA122009B5215 /* Montserrat-MediumItalic.ttf in Resources */,
+				797526C220FFA121009B5215 /* Montserrat-LightItalic.ttf in Resources */,
+				797526D020FFA122009B5215 /* Montserrat-SemiBold.ttf in Resources */,
+				79B8551B20FCE72000D5E260 /* MyScene.sks in Resources */,
+				797526CD20FFA122009B5215 /* OpenSans-Italic.ttf in Resources */,
+				797526DC20FFA122009B5215 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				79FFD6A620F78E3900CB121D /* Assets.xcassets in Resources */,
+				797526C420FFA121009B5215 /* Montserrat-Medium.ttf in Resources */,
+				797526D920FFA122009B5215 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				79FFD6A420F78E3800CB121D /* Main.storyboard in Resources */,
+				797526D820FFA122009B5215 /* Montserrat-Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F3602A4C2D1783CEFCB67CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Barnes & Noble/Pods-Barnes & Noble-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ChainableAnimations/ChainableAnimations.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTProgressBar/GTProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChainableAnimations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Barnes & Noble/Pods-Barnes & Noble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A29013781BB0BCAD32EB74BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Barnes & Noble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1904994598833698C918FE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Barnes & Noble/Pods-Barnes & Noble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79FFD69520F78E3800CB121D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B3634820FFA6E900B0F114 /* BestSellerCollectionCell.swift in Sources */,
+				79B33BF521010A2D0009BAA8 /* RecommendedCollectionCell.swift in Sources */,
+				79087D8D211106B800B3B46F /* ProfilePage.swift in Sources */,
+				79B33BF7210129FA0009BAA8 /* DetailsView.swift in Sources */,
+				79B8EC6A210426FD005AF4D3 /* Navigation.swift in Sources */,
+				79B3634420FFA22400B0F114 /* Login.swift in Sources */,
+				79623F5021064577007CA94B /* ARView.swift in Sources */,
+				79B33BF921023B2E0009BAA8 /* MMSlidingButton.swift in Sources */,
+				79E056CC20FFD63400133814 /* GradientView.swift in Sources */,
+				79E056CE20FFDD0E00133814 /* NewArrivalsCollectionCell.swift in Sources */,
+				79FFD6A120F78E3800CB121D /* ViewController.swift in Sources */,
+				79B3634620FFA50E00B0F114 /* Home.swift in Sources */,
+				79FFD69D20F78E3800CB121D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79FFD6A220F78E3800CB121D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79FFD6A320F78E3800CB121D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79FFD6A720F78E3900CB121D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79FFD6A820F78E3900CB121D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79FFD6AB20F78E3900CB121D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79FFD6AC20F78E3900CB121D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79FFD6AE20F78E3900CB121D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3B02DEB7DC1FEBBBDD4B38 /* Pods-Barnes & Noble.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNJMA6U23F;
+				INFOPLIST_FILE = "Barnes & Noble/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.restonhub.B-N";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79FFD6AF20F78E3900CB121D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4BC4D4B21BEBA0BE0592A9 /* Pods-Barnes & Noble.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNJMA6U23F;
+				INFOPLIST_FILE = "Barnes & Noble/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.restonhub.B-N";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79FFD69420F78E3700CB121D /* Build configuration list for PBXProject "Barnes & Noble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FFD6AB20F78E3900CB121D /* Debug */,
+				79FFD6AC20F78E3900CB121D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FFD6AD20F78E3900CB121D /* Build configuration list for PBXNativeTarget "Barnes & Noble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FFD6AE20F78E3900CB121D /* Debug */,
+				79FFD6AF20F78E3900CB121D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79FFD69120F78E3700CB121D /* Project object */;
+}
